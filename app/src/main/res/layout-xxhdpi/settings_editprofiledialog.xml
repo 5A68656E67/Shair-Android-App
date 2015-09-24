@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:background="#ffffff">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="@string/bacha"
+            android:textSize="25sp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/cancel_window"
+            android:clickable="true"/>
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="fill_parent"
+            android:text="@string/Edit_Profile"
+            android:textSize="25sp"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="10dp" />
+        <TextView
+            android:layout_width="115dp"
+            android:layout_height="fill_parent" />
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/add_image"
+            android:src="@drawable/camera"/>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="20dp" />
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="260dp"
+                android:id="@+id/profile_image"
+                android:scaleType="fitXY" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="20dp" />
+            <EditText
+                android:layout_height="60dp"
+                android:layout_width="500dp"
+                android:layout_gravity="center_horizontal"
+                android:inputType="textPersonName"
+                android:hint="@string/Name"
+                android:paddingLeft="10dp"/>
+            <EditText
+                android:layout_width="500dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="60dp"
+                android:inputType="number"
+                android:hint="@string/Birth_Date"
+                android:paddingLeft="10dp"/>
+            <EditText
+                android:layout_width="500dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="60dp"
+                android:hint="@string/Email"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="10dp"/>
+            <EditText
+                android:layout_width="500dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="60dp"
+                android:hint="@string/Phone"
+                android:inputType="phone"
+                android:paddingLeft="10dp"/>
+            <EditText
+                android:layout_width="500dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="60dp"
+                android:hint="@string/Location"
+                android:inputType="text"
+                android:paddingLeft="10dp"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:textAllCaps="false"
+                android:text="@string/Confirm"
+                android:textSize="20sp"
+                android:textColor="#ffffff"
+                android:background="#ffff4547"
+                android:id="@+id/confirm"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+    <TextView
+        android:id="@+id/add_shair_button"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="@string/plus"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:background="#ffff3a3a"
+        android:clickable="true"/>
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="770dp"
+        android:id="@android:id/list">
+    </ListView>
+
+
+</LinearLayout>

@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Shair</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="usernsme">Email</string>
+    <string name="password">Password</string>
+    <string name="title_activity_create_account">Register Shair Account</string>
+    <string name="findpassword">find password</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_uimanage">Shair</string>
+    <string name="forget_password">If you forgot your password, we can send you an email to reset it.</string>
+    <string-array name="filter">
+        <item>Filter</item>
+        <item id="1">Price: High to Low</item>
+        <item id="2">Price: Low to High</item>
+        <item id="3">Distance: Near to Far</item>
+        <item id="4">Distance: Far to Near</item>
+    </string-array>
+    <string name="title_activity_explore_map">ExploreMapActivity</string>
+    <string name="title_activity_explore_maps">Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_find_password">Find Password</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="section_title_0"></string>
+    <string name="section_title_1">Edit Profile</string>
+    <string name="section_title_2">Settings</string>
+    <string name="section_title_3">Invite Friends</string>
+    <string name="section_title_4">About</string>
+    <string name="section_title_5">Help</string>
+    <string name="section_title_6">Log Out</string>
+    <string name="Email">Email</string>
+
+    <string-array name="units">
+        <item>days</item>
+        <item>months</item>
+        <item>years</item>
+    </string-array>
+    <string name="title_activity_choose_contact">Invite Friends</string>
+    <string name="send_invites">Send Invites</string>
+    <string name="Sign_up">Sign up</string>
+    <string name="Last_Name">Last Name</string>
+    <string name="First_Name">First Name</string>
+    <string name="Log_in_with_Google">Log in with Google+</string>
+    <string name="Log_in_with_Facebook">Log in with Facebook</string>
+    <string name="Log_in">Log in</string>
+    <string name="Forget_Password">Forget Password?</string>
+    <string name="divide"> | </string>
+    <string name="Create_An_account">Create an Account</string>
+    <string name="Confirm">Confirm</string>
+    <string name="Location">Location</string>
+    <string name="Phone">Phone</string>
+    <string name="Birth_Date">Birth Date</string>
+    <string name="Name">Name</string>
+    <string name="Edit_Profile">Edit Profile</string>
+    <string name="bacha">╳</string>
+    <string name="html">http://52.3.110.203</string>
+    <string name="Invite_Friends">Invite Friends</string>
+    <string name="Auto_Login">Auto Login</string>
+    <string name="Notifications">Notifications</string>
+    <string name="Settings"> Settings</string>
+    <string name="plus">+</string>
+    <string name="percent_new">% new</string>
+    <string name="discussed">discussed</string>
+    <string name="days">days</string>
+    <string name="zuopie">/</string>
+    <string name="miles"> miles</string>
+    <string name="dollar">$</string>
+    <string name="shared_by">shared by </string>
+    <string name="Search">Search</string>
+    <string name="title_activity_review">Transactions</string>
+    <string name="title_activity_like">Likes</string>
+    <string name="title_activity_item">ItemActivity</string>
+    <string name="about_us">About Us</string>
+    <string name="Donate">Donate</string>
+    <string name="Sounds_Good">Sounds Good</string>
+    <string name="account">Email</string>
+    <string name="get_it_by">Get it by</string>
+    <string name="empty">Your search did not match any items</string>
+    <string name="post_list">Posted by you</string>
+    <string name="share_list">Shared by you</string>
+    <string name="borrow_list">Shared to you</string>
+    <string name="title_activity_shared_item">SharedItemActivity</string>
+</resources>

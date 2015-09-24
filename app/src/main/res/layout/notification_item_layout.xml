@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="match_parent" />
+        <!--<ImageView-->
+            <!--android:id="@+id/needer_img"-->
+            <!--android:layout_width="60dp"-->
+            <!--android:layout_height="60dp"-->
+            <!--android:scaleType="fitXY"/>-->
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/needer_img"
+            android:scaleType="fitXY"
+            app:riv_corner_radius="30dip"
+            app:riv_border_width="2dip"
+            app:riv_border_color="#ffffff"
+            app:riv_mutate_background="true"
+            app:riv_corner_radius_top_left="30dp"
+            app:riv_corner_radius_bottom_right="30dp"
+            app:riv_corner_radius_top_right="30dp"
+            app:riv_corner_radius_bottom_left="30dp"
+            app:riv_oval="false"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            />
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="100dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/notification_info"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textColor="@color/grey"
+                android:textSize="18sp"
+                android:paddingTop="12dp"
+                android:gravity="center_vertical"/>
+            <TextView
+                android:text=""
+                android:id="@+id/notification_time"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/item_img"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+</LinearLayout>

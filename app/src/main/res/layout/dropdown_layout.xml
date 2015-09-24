@@ -1,0 +1,11 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    style="?android:attr/dropDownItemStyle"
+    android:layout_width="fill_parent"
+    android:layout_height="49dp"
+    android:gravity="left"
+    android:padding="5dp"
+    android:hint="What are you looking for?"
+    android:textAppearance="?android:attr/textAppearanceMediumInverse"
+    android:textColor="#000"
+    android:background="#ffffff"/>

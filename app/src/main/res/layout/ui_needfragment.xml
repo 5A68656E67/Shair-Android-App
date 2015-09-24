@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="20dp" />
+    <LinearLayout
+        android:layout_width="560dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+    <AutoCompleteTextView
+
+        android:id="@+id/autotv"
+        android:layout_width="500dp"
+        android:layout_height="match_parent"
+        android:textColor="#000000"
+        android:background="#ffffff"
+        android:paddingLeft="10dp"
+        android:hint="What are you looking for?"
+        android:imeOptions="actionSearch"
+        android:singleLine="true"
+        />
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:id="@+id/micro_search"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/microphone"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="12dp" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ListView
+            android:id="@+id/search_list"
+            android:layout_width="560dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:background="#ffffff"/>
+        <TextView
+            android:id="@+id/empty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/empty"
+            android:textSize="28dp"
+            android:gravity="center"
+            android:layout_marginTop="100dp"/>
+        <ImageView
+            android:id="@+id/loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+    </FrameLayout>
+
+</LinearLayout>

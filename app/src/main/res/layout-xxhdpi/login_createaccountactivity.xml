@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.ethan.shairpremier.CreateAccountActivity"
+    android:background="@drawable/back_blur"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="100dp"/>
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffffffff"
+        android:layout_gravity="center">
+        <EditText
+            android:layout_width="400dp"
+            android:layout_height="70dp"
+            android:hint="@string/Email"
+            android:textColorHint="#4C4C4C"/>
+        <EditText
+            android:layout_width="400dp"
+            android:layout_height="70dp"
+            android:hint="@string/password"
+            android:textColorHint="#4C4C4C"
+            android:inputType="numberPassword"/>
+        <EditText
+            android:layout_width="400dp"
+            android:layout_height="70dp"
+            android:hint="@string/First_Name"
+            android:textColorHint="#4C4C4C"/>
+        <EditText
+            android:layout_width="400dp"
+            android:layout_height="70dp"
+            android:hint="@string/Last_Name"
+            android:textColorHint="#4C4C4C"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+    <Button
+        android:id="@+id/button_signup"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:background="#FF0000"
+        android:layout_gravity="center"
+        android:text="@string/Sign_up"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textAllCaps="false"/>
+
+</LinearLayout>

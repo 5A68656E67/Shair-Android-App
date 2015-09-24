@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="@string/bacha"
+            android:textSize="25sp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/cancel_window"
+            android:clickable="true"/>
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="fill_parent"
+            android:text="@string/Invite_Friends"
+            android:textSize="25sp"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="10dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="20dp" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="240dp">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="240dp"
+            android:src="@drawable/invite_friends_background"
+            android:scaleType="fitXY"/>
+
+
+        <Button
+            android:layout_width="570dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="170dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#ffff3c3c"
+            android:textColor="#ffffff"
+            android:text="@string/Invite_Friends"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:id="@+id/invite_friends"/>
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:text="Share your link"
+        android:textSize="16sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="10dp" />
+    <Button
+        android:layout_width="500dp"
+        android:layout_height="60dp"
+        android:background="@drawable/share_link_button"
+        android:text="@string/html"
+        android:textAllCaps="false"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ff606060"
+        android:id="@+id/share_link"/>
+
+
+</LinearLayout>

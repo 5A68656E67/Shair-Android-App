@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ColorPrimary">#ffff3a3a</color>
+    <color name="ColorPrimaryDark">#000000</color>
+    <color name="tabsScrollColor">#df3232</color>
+    <color name="explore_bar">#ffffff</color>
+    <color name="crimson">#ffff3c3c</color>
+    <color name="grey">#544F4F</color>
+</resources>

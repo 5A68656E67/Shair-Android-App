@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="500dp" android:layout_height="100dp"
+    android:orientation="vertical"
+    android:id="@+id/toast_offline"
+    android:background="@drawable/rounded_corner">
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/offline_icon"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="10dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You're currently off-line"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="7dp" />
+
+</LinearLayout>

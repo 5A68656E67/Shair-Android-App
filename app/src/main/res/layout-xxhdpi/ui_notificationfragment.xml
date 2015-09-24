@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/notifications_background">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="20dp" />
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#ffffff"
+        android:id="@+id/reviews"
+        android:clickable="true">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/review_icon"
+            android:paddingLeft="12dp"/>
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="fill_parent" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="Reviews"
+            android:textSize="23sp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"/>
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/right_arrow"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="260dp"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="10dp" />
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#ffffff"
+        android:id="@+id/likes"
+        android:clickable="true">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/like_icon"
+            android:paddingLeft="12dp"/>
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="fill_parent" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="Likes"
+            android:textSize="23sp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"/>
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/right_arrow"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="290dp"/>
+    </LinearLayout>
+
+</LinearLayout>

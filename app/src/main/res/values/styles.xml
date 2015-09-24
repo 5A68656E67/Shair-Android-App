@@ -1,0 +1,30 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="AppUITheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/ColorPrimary</item>
+        <item name="colorPrimaryDark">@color/ColorPrimaryDark</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListViewStyle</item>
+
+    </style>
+    <style name="AppThemeFindPassword"
+        parent="Theme.AppCompat.Light">
+    </style>
+    <style name="AppThemeCreate" parent="Theme.AppCompat.Light">
+
+    </style>
+    <style name="AppThemeMap" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="AppThemeItem" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="DropDownListViewStyle">
+        <item name="android:dividerHeight">4dp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="╳"
+            android:textSize="25sp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/cancel_window"
+            android:clickable="true"/>
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="fill_parent"
+            android:text=" Share your things"
+            android:textSize="25sp"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="10dp" />
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="fill_parent" />
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/post"
+            android:text="Post"
+            android:clickable="true"
+            android:textSize="22sp"
+            android:gravity="center_vertical"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="490dp"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+        <ImageView
+            android:id="@+id/item_add_picture"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:paddingLeft="10dp"
+            android:src="@drawable/add_image_icon"/>
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="100dp" />
+        <HorizontalScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:scrollbars="none">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <ImageView
+                    android:id="@+id/item_picture_galarry_1"
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:paddingLeft="10dp" />
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:paddingLeft="10dp"
+                    android:id="@+id/item_picture_galarry_2"/>
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:paddingLeft="10dp"
+                    android:id="@+id/item_picture_galarry_3"/>
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:paddingLeft="10dp"
+                    android:id="@+id/item_picture_galarry_4"/>
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:paddingLeft="10dp"
+                    android:id="@+id/item_picture_galarry_5"/>
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:paddingLeft="10dp"
+                    android:id="@+id/item_picture_galarry_6"/>
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:paddingLeft="10dp"
+                    android:id="@+id/item_picture_galarry_7"/>
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:paddingLeft="10dp"
+                    android:id="@+id/item_picture_galarry_8"/>
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:paddingLeft="10dp"
+                    android:id="@+id/item_picture_galarry_9"/>
+            </LinearLayout>
+
+
+        </HorizontalScrollView>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="15dp" />
+            <EditText
+                android:layout_width="470dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:id="@+id/stuff_name"
+                android:hint="What you wanna share "/>
+            <EditText
+                android:layout_width="470dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:id="@+id/stuff_description"
+                android:hint="A brief description"/>
+            <LinearLayout
+                android:layout_width="460dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:textSize="18sp"
+                    android:id="@+id/how_new"
+                    android:hint="How new is it"/>
+                <TextView
+                    android:layout_width="55dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+                    android:id="@+id/percentage"
+                    android:text="0%"
+                    android:textSize="18sp"/>
+                <SeekBar
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/seek_bar"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="470dp"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="60dp"
+                    android:text="$"
+                    android:textSize="25sp"
+                    android:gravity="center_vertical"/>
+                <EditText
+                    android:id="@+id/stuff_price"
+                    android:inputType="numberDecimal"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp" />
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="12dp"
+                    android:text="/"
+                    android:textSize="35sp"
+                    android:gravity="center_horizontal"/>
+                <EditText
+                    android:id="@+id/stuff_duration"
+                    android:inputType="number"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp" />
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:text="days"
+                    android:textSize="18sp"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="470dp"
+                android:layout_height="60dp"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="400dp"
+                    android:layout_height="match_parent"
+                    android:text="Can the price be discussed?"
+                    android:gravity="center|left"
+                    android:textSize="18sp"/>
+                <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/item_discuss_on_off"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="470dp"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="60dp"
+                    android:text="$"
+                    android:textSize="25sp"
+                    android:gravity="center_vertical"/>
+                <EditText
+                    android:id="@+id/stuff_security_deposit"
+                    android:inputType="numberDecimal"
+                    android:layout_width="450dp"
+                    android:layout_height="60dp"
+                    android:hint="Security deposit"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="10dp" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Available until:"
+                    android:textSize="18sp"
+                    android:layout_gravity="center_vertical"/>
+                <DatePicker
+                    android:id="@+id/stuff_datapicker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:datePickerMode="spinner"
+                    android:calendarViewShown="false"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
